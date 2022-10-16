@@ -16,4 +16,5 @@ function myfunc()
 }
 //関数の呼び出し
 myfunc();
-
+// 変数の使用：使えない
+echo "global:b is {$b} \n";
