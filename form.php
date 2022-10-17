@@ -9,7 +9,7 @@ function h(string $s) : string
 }
 
 // データの取得
-$input = $_GET['input_text']; // 今回追記分
+$input = $_GET['input_text']??""; // 今回追記分
 
 // 出力
 echo "あなたが入力したのは " , h($input) , " ですね";
